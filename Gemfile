@@ -45,9 +45,12 @@ gem 'font-awesome-sass'
 gem 'simple_form'
 
 
-gem 'rspec-rails', '~> 3.0.0'
-gem 'factory_girl_rails'
-gem 'database_cleaner'
+gem 'rspec-rails', '~> 3.0.0', group: :development
+gem 'factory_girl_rails', group: :test
+gem 'database_cleaner', group: :test
+
+gem 'rails_12factor', group: :production
+
 
 
 
