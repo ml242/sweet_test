@@ -1,11 +1,16 @@
 Rails.application.routes.draw do
+  resources :personas
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
+  # resources :users
 
-  get '/' => 'users#index'
+  # root "users#index"
 
-
+  get '/' => 'personas#new'
+  # match "user/create" => "user#create", via: [:post]
+  get '/index' => 'personas#index'
 
 
 

@@ -1,0 +1,35 @@
+<div class="container">
+
+
+
+  <div class="row">
+
+    
+
+      <div class="col-md-2"></div>
+
+
+      <div class="col-md-8 jobs-wanted">
+
+        <h1>Possible personas</h1>
+
+        <ul>
+          <% @personas.each do |persona| %>
+          <li class="each-persona"><%= persona.name %> | <%= persona.email %> | <%= persona.phone %></li>
+          <% end %>
+          </ul>
+
+            <br>
+
+            <%= link_to 'New Persona', new_persona_path %>
+      
+      </div>
+
+
+      <div class="col-md-2"></div>
+
+  </div>
+
+
+
+</div>

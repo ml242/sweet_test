@@ -40,6 +40,14 @@ gem 'autoprefixer-rails'
 
 # emoji gem https://github.com/github/gemoji
 
+gem 'font-awesome-sass'
+
+gem 'simple_form'
+
+
+gem 'rspec-rails', '~> 3.0.0'
+gem 'factory_girl_rails'
+gem 'database_cleaner'
 
 
 
