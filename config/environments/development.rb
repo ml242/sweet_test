@@ -37,7 +37,6 @@ Rails.application.configure do
 
     config.action_mailer.delivery_method = :smtp
     config.action_mailer.raise_delivery_errors = true
-    config.action_mailer.default_url_options = {:host => 'http://mighty-beyond-7913.herokuapp.com/'}
     config.action_mailer.smtp_settings = {
     :host => 'localhost:3000',
     :address              => "smtp.gmail.com",
