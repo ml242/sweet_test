@@ -1,6 +1,6 @@
 class UserMailer < ActionMailer::Base
   default from: "mattlucas@gmail.com",
-          :bcc => "marisa@sweetrootsnyc.com"
+          bcc: "marisa@sweetrootsnyc.com"
 
 
   def welcome_mailer(user)
