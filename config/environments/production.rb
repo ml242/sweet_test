@@ -87,9 +87,9 @@ Rails.application.configure do
     config.action_mailer.raise_delivery_errors = true
     config.action_mailer.default_url_options = {:host => 'http://mighty-beyond-7913.herokuapp.com/'}
     config.action_mailer.smtp_settings = {
-    :address              => "smtp.gmail.com",
+    :address              => "smtp.sendgrid.net",
     :port                 => 587,
-    :domain               => 'gmail.com',
+    :domain               => 'heroku.com',
     :user_name            => ENV["SENDGRID_USERNAME"],
     :password             => ENV["SENDGRID_PASSWORD"],
     :authentication       => 'plain',
