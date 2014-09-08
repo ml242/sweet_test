@@ -1,0 +1,41 @@
+.background-image {
+  background-image: url("burritos.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1000px !important;
+}
+
+
+.title-row {
+  margin-top: 50px;
+}
+
+.help-wanted { 
+  margin-top: 8em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .8);
+}
+
+.help-wanted h3,h2 {
+  font-family: cursive;
+}
+
+.label {
+  width: 120px;
+  margin-right: 25px;
+}
+
+input {
+  width: 500px !important;
+}
+
+.jobs-wanted {
+  margin-top: 8em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .8);
+}
+
+.each-persona {
+  color: black;
+}
