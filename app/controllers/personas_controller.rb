@@ -33,7 +33,6 @@ class PersonasController < ApplicationController
       @persona.phone = params["phone"]
       if @persona.save
         UserMailer.welcome_mailer(@persona).deliver
-        # UserMailer.admin_mailer(@persona).deliver
         format.html { render :new, notice: 'Persona was successfully created.' }
         format.json { render :show, status: :created, location: @persona }
       else

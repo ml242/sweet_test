@@ -9,10 +9,5 @@ class UserMailer < ActionMailer::Base
     mail(:to => user.email, :subject => "Welcome, you rocking roller!")
   end
 
-  # def admin_mailer(admin)
-  #   @admin = admin
-  #   mail(:to => admin.email, :subject => "Welcoming a new rocking roller!")
-  # end
-
 
 end

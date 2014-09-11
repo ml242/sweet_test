@@ -3,10 +3,10 @@ ruby '2.1.0'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.5'
+gem 'rails', '4.0.9'
 # Use POSTGRES as the database for Active Record
 gem 'pg'
-# Use SCSS for stylesheets
+ 
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -35,20 +35,20 @@ gem 'spring',        group: :development
 gem 'pry-rails',        group: :development
 
 # bootstrap to scaffold the front end
-gem 'bootstrap-sass', '~> 3.2.0'
+# gem 'bootstrap-sass', '~> 3.2.0'
 
 gem 'autoprefixer-rails'
 
 # emoji gem https://github.com/github/gemoji
 
-gem 'font-awesome-sass'
+group :test do
 
-gem 'simple_form'
+  gem 'rspec-rails', '~> 3.1.0'
+  gem 'factory_girl_rails'
+  gem 'database_cleaner'
+  
+end
 
-
-gem 'rspec-rails', '~> 3.0.0', group: :development
-gem 'factory_girl_rails', group: :test
-gem 'database_cleaner', group: :test
 
 gem 'rails_12factor', group: :production
 

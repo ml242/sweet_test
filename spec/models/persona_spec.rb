@@ -1,9 +1,4 @@
-require 'spec_helper'
-# require 'database_cleaner'
-# DatabaseCleaner.strategy = :truncation
-
-
-describe User do
+describe Persona do
 
   it "is valid with a name" do
     matt = Persona.new(name: "matt", )
